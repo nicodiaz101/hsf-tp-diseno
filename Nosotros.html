@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgueseria</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.css">
 </head>
 <body>
     <header>
@@ -33,7 +34,18 @@
                 Nuestro local incluye un espacio interior único y relajante. Y combinado con un espacio exterior inmenso con mesas al raz del rio
                 y en varios muelles. Una experiencia inolvidable</p>
         </section>
-        <section id="Carrusel de fotos"></section>
+        <section id="Carrusel de fotos">
+            <div class="glider-contain">
+                <div class="glider">
+                  <div class="elemento"><img src="img/DSC_0616.jpg" alt=""></div>
+                  <div class="elemento"><img src="img/DSC_9186.jpg" alt=""></div>
+                  <div class="elemento"><img src="img/DSC_9460.jpg" alt=""></div>
+                </div>
+                <button aria-label="Previous" class="glider-prev">«</button>
+                <button aria-label="Next" class="glider-next">»</button>
+                <div role="tablist" class="dots"></div>
+              </div>
+        </section>
     </main>
     <footer>
         <div class="textored">
@@ -48,5 +60,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/e1a23102fe.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script defer src="js/carrusel.js"></script>
 </body>
 </html>

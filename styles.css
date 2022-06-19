@@ -90,3 +90,18 @@ footer{
     font-size: 15pt;
     line-height: 30pt;
 }
+.glider-contain{
+    padding: 30px;
+    max-width: 600px;
+}
+.glider-prev,
+.glider-next {
+    display: block;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.glider{
+    overflow: hidden;
+}

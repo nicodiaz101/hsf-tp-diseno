@@ -190,3 +190,51 @@ textarea{
     max-width: 300px;
     border-radius: 10px;
 }
+#pampeana .containerizq img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+#clasica .containerizq img{
+    max-width: 350px;
+    border-radius: 10px;
+}
+#rustica .containerizq img{
+    max-width: 350px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+#vegana .containerizq img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+#casa .containerizq img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+#artesanal {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#clasica .containerizq {
+    background-color: #fef3e4;
+}
+#clasica .subtitulo{
+    margin-left: 40px;
+}
+#clasica .texto{
+    margin-right: none;
+    margin-left: 40px;
+}
+#rustica .containerizq{
+    background-color: #e6dfcf;
+}
+#vegana .subtitulo{
+    margin-left: 40px;
+}
+#vegana .texto{
+    margin-right: none;
+    margin-left: 40px;
+}
+#casa .containerizq{
+    background-color: #fef3e4;
+}

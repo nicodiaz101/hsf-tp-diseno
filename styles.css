@@ -29,11 +29,12 @@ header{
     margin-right: 20px;
 }
 nav a{
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: underline;
     padding-right: 25px;
     padding-left: 20px;
     font-size: 16pt;
+    font-family: 'Poppins', sans-serif;
 }
 .Nombre-hamburgueseria{
     font-size: 25pt;
@@ -159,4 +160,33 @@ textarea{
     transition: 0.5s ease all;
     background-color: #695C3F;
     color: #ffff;
+}
+.containerizq{
+    background-color: #e6e3cf;
+    padding: 30px;
+    margin-top: 70px;
+    box-shadow: 1px 2px 10px rgb(112, 112, 112);
+    display: flex;
+}
+#nuevaham .containerizq{
+    background-color: #fef3e4;
+    margin-bottom: 100px;
+}
+#Mejores-vistas .containerizq img{
+    max-width: 400px;
+    border-radius: 10px;
+}
+.subtitulo{
+   font-family: 'Inter', sans-serif;
+   font-size: 20pt;
+   color: #2A2929;
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#nuevaham .containerizq img{
+    max-width: 300px;
+    border-radius: 10px;
 }

@@ -24,12 +24,23 @@
             <h1>Puedes contactanos mediante</h1>
         </div>
         <section id="Redes">
-            <h2>Por nuestras redes sociales:</h2>
-            <a><i> </i></a>
-            <a><i> </i></a>
+            <h2 class="secundarionb">Por nuestras redes sociales:</h2>
+            <div class="redes-socialesc">
+                <a href="#"><i class="fa-brands fa-instagram" class="ig"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
         </section>
         <section id="Formulario">
-            
+            <h2 class="secundarionb">¿Tienes sugerencias? Déjala aqui!</h2>
+            <form action="">
+                <label for="nombre">Nombre <span>*</span></label><br>
+                <input type="text" id="nombre" ><br>
+                <label for="email">Email <span>*</span></label><br>
+                <input type="text" id="email" ><br>
+                <label for="mensaje">Mensaje <span>*</span></label><br>
+                <textarea rows="10" cols="60" id="mensaje"></textarea><br>
+                <input type="submit" onclick='return enviarform();' value="Enviar Mensaje" id="send"><br>
+            </form>
         </section>
     </main>
     <footer>
@@ -45,5 +56,6 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/e1a23102fe.js" crossorigin="anonymous"></script>
+    <script src="js/formulario.js"></script>
 </body>
 </html>

@@ -105,3 +105,58 @@ footer{
 .glider{
     overflow: hidden;
 }
+.redes-socialesc{
+    display: flex;
+    justify-content: center;
+}
+.redes-socialesc i{
+    font-size: 50px;
+    padding: 0px 60px;
+    cursor: pointer;
+}
+.redes-socialesc i:hover{
+    transition: 0.3s ease;
+    color: #515151;
+}
+.secundarionb{
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #707070;
+    font-size: 23pt;
+    font-weight: 200;
+}
+form {
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+input, textarea{
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+textarea{
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 500px;
+    max-width: 500px;
+}
+#send{
+    background-color: #E6DFCF;
+    font-family:'Inter', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    border: none;
+}
+#send:hover{
+    cursor: pointer;
+    transition: 0.5s ease all;
+    background-color: #695C3F;
+    color: #ffff;
+}

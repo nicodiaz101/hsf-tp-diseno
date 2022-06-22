@@ -39,17 +39,6 @@ nav a{
 .Nombre-hamburgueseria{
     font-size: 25pt;
 }
-@media (max-width:1040px) {
-    header{
-        height: 80px;
-    }
-    .logo img{
-        height: 50px;
-    }
-    .Nombre-hamburgueseria{
-        display: none;
-    }
-}
 footer{
     background-color: rgb(230, 223, 207);
     height: 150px;
@@ -237,4 +226,239 @@ textarea{
 }
 #casa .containerizq{
     background-color: #fef3e4;
+}
+@media (max-width:1080px) {
+    header{
+        height: 80px;
+    }
+    .logo img{
+        height: 50px;
+    }
+    .Nombre-hamburgueseria{
+        font-size: 20pt;
+    }
+    nav a{
+        font-size: 14pt;
+    }
+    .subtitulo{
+        font-size: 16pt;
+    }
+    .texto{
+        font-size: 14pt;
+    }
+    .titulo{
+        font-size: 13pt;
+    }
+}
+@media (max-width:915px) {
+    header{
+        height: 70px; 
+    }
+    .logo img{
+        height: 50px;
+    }
+    .Nombre-hamburgueseria{
+        display: none;
+    }
+    nav a{
+        font-size: 14pt;
+    }
+}
+@media (max-width:700px) {
+    header{
+        height: 60px; 
+    }
+    .logo img{
+        height: 35px;
+    }
+    .Nombre-hamburgueseria{
+        display: none;
+    }
+    nav a{
+        font-size: 11pt;
+        padding-left: 1;
+        padding-right: 0;
+    }
+    .subtitulo{
+        font-size: 12pt;
+    }
+    .texto{
+        font-size: 9pt;
+    }
+    .titulo{
+        font-size: 12pt;
+    }
+    #Mejores-vistas .containerizq img{
+        width: 150px;
+        height: 130px;
+    }
+    #nuevaham .containerizq img{
+        width: 160px;
+        height: 150px;
+        margin-top: 20px;
+    }
+    #pampeana .containerizq img{
+        width: 160px;
+        height: 150px;
+    }
+    #clasica .containerizq img{
+        width: 150px;
+        height: 140px;
+        margin-top: 30px;
+    }
+    #rustica .containerizq img{
+        margin-left: 0;
+        width: 180px;
+        height: 150px;
+        margin-top: 10px;
+    }
+    #vegana .containerizq img{
+        width: 160px;
+        height: 150px;
+        margin-top: 30px;
+    }
+    #casa .containerizq img{
+        width: 160px;
+        height: 150px;
+        margin-top: 30px;
+    }
+    .copy{
+        font-size: 8pt;
+    }
+    #Texto-quienes-somos{
+        font-size: 12pt;
+    }
+    .glider-next{
+        display: none;
+    }
+    .glider-prev{
+        display: none;
+    }
+    .glider-contain{
+        max-width: 400px;
+        padding: 10px 0 ;
+    }
+    form{
+        padding: 0;
+        width: 300px;
+        height: 400px;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    input, textarea{
+        width: 350px;
+        margin-left: 40px;
+    }
+    label{
+        margin-left: 40px;
+    }
+    textarea{
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 300px;
+        max-width: 400px;
+    }
+}
+@media (max-width:400px) {
+    header{
+        height: 60px; 
+    }
+    .logo img{
+        height: 35px;
+    }
+    .Nombre-hamburgueseria{
+        display: none;
+    }
+    nav a{
+        font-size: 10pt;
+        padding-left: 1;
+        padding-right: 0;
+    }
+    .subtitulo{
+        font-size: 10pt;
+    }
+    .texto{
+        font-size: 9pt;
+    }
+    .titulo{
+        font-size: 9pt;
+    }
+    #Mejores-vistas .containerizq img{
+        width: 140px;
+        height: 120px;
+        margin-top: 20px;
+    }
+    #nuevaham .containerizq img{
+        width: 140px;
+        height: 130px;
+        margin-top: 40px;
+    }
+    #pampeana .containerizq img{
+        width: 140px;
+        height: 130px;
+        margin-top: 30px;
+    }
+    #clasica .containerizq img{
+        width: 120px;
+        height: 110px;
+        margin-top: 55px;
+    }
+    #rustica .containerizq img{
+        margin-left: 0;
+        width: 150px;
+        height: 120px;
+        margin-top: 20px;
+    }
+    #vegana .containerizq img{
+        width: 130px;
+        height: 120px;
+        margin-top: 40px;
+    }
+    #casa .containerizq img{
+        width: 140px;
+        height: 130px;
+        margin-top: 50px;
+    }
+    .copy{
+        font-size: 7pt;
+    }
+    #Texto-quienes-somos{
+        font-size: 11pt;
+        line-height: 20pt;
+    }
+    .glider-next{
+        display: none;
+    }
+    .glider-prev{
+        display: none;
+    }
+    .glider-contain{
+        max-width: 350px;
+        padding: 10px 0 ;
+    }
+    form{
+        padding: 0;
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    input, textarea{
+        width: 300px;
+        margin-left: 40px;
+    }
+    label{
+        margin-left: 40px;
+    }
+    textarea{
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+@media (max-width:361px) {
+    nav a{
+        font-size: 9pt;
+    }
 }
